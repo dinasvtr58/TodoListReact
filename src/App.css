@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Klee One', cursive;
+}
+
+.container {
+  background: linear-gradient(to right bottom , #EEEEEE, #EEEEEE);
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.app-wrapper {
+  background-color: #222831;
+  min-width: 550px;
+  min-height: 750px;
+  padding: 30px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  box-shadow: 3px 6px 40px #393E46;
+  margin-bottom: 10px;
+  border: 1px solid #FFD369;
+}
+
+.header h1 {
+  color: white;
+  text-align: center;
+  margin: 40px 0;
+  font-size: 60px;
+}
+
+.task-input{
+  outline: none;
+  width: 300px;
+  padding: 15px;
+  margin-right: 25px;
+  font-size: 20px;
+  font-weight: bolder;
+  color: rgb(0, 0, 0);
+  background-color: #FFD369;
+  border: 1px solid #FFD369;
+  border-radius: 10px;
+}
+
+.button-add{
+  width: 150px;
+  padding: 15px 15px;
+  font-size: 25px;
+  font-weight: bolder;
+  border-radius: 10px;
+  border: 0;
+  background-color: #FFD369;
+  cursor: pointer;
+  margin-left: 100px;
+}
+
+.list-item{
+  display: flex;
+  margin: 20px 0;
+  border: 3px solid #FFD369;
+  border-radius: 10px;
+  padding: 15px;
+  max-height: 30px;
+  text-align: center;
+}
+
+.button-complete,
+.button-delete,
+.button-edit{
+  
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  font-size: 28px;
+  border-radius: 50%;
+  margin-top: -7px;
+}
+
+.button-complete{
+  color: rgb(248, 116, 116);
+  margin-right: 0px;
+  margin-left: 150px;
+  
+}
+
+.button-edit{
+  color: #faf1db;
+  margin-right: 0px;
+  margin-left: 50px;
+}
+
+.button-delete{
+  color: rgb(195, 253, 108);
+  margin-left: 50px;
+}
+
+.complete{
+  text-decoration-style: solid;
+  text-decoration-line: line-through;
+  text-decoration-color: rgb(248, 116, 116);
+  opacity: 0.6;
+}
+
+.list{
+  width: 220px;
+  background-color: transparent;
+  border: none;
+  color: #FFD369;
+  font-size: 20px;
+  padding-left: 10px;
+  margin-left: 15px;
+}
+
+input:focus,
+button:focus{
+  outline: none;
+}
